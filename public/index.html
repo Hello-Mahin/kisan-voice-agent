@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KisanSathi - किसानसाथी</title>
+    <!-- Google Fonts for premium typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@300;400;500;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for clean iconography -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Glassmorphic Header -->
+        <header class="app-header">
+            <div class="logo-area">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+                <div class="logo-text">
+                    <h1 id="header-title">किसानसाथी</h1>
+                    <p id="header-subtitle">KisanSathi • आपका कृषि मित्र</p>
+                </div>
+            </div>
+            
+            <div class="header-controls">
+                <!-- Bilingual Toggle Pill -->
+                <div class="language-toggle">
+                    <button id="lang-hi" class="lang-btn active">हिंदी</button>
+                    <button id="lang-en" class="lang-btn">English</button>
+                </div>
+                
+                <div class="status-indicator">
+                    <span id="mode-badge" class="badge online">
+                        <i class="fa-solid fa-circle-check"></i> <span id="mode-text">ऑनलाइन</span>
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <main class="app-main">
+            <!-- Voice Interactive Section -->
+            <section class="voice-section card">
+                <div class="instruction-box">
+                    <h2 id="action-heading">बात करने के लिए बटन दबाकर रखें</h2>
+                    <p id="action-subtext">अपनी समस्या हिंदी में बताएं (जैसे: "गेहूं की पत्तियां पीली पड़ रही हैं")</p>
+                </div>
+
+                <div class="mic-container">
+                    <div class="pulse-ring ring-1"></div>
+                    <div class="pulse-ring ring-2"></div>
+                    <div class="pulse-ring ring-3"></div>
+                    <button id="mic-btn" class="mic-button" aria-label="Hold to speak">
+                        <i class="fa-solid fa-microphone"></i>
+                    </button>
+                </div>
+
+                <div class="mic-status" id="mic-status-text">
+                    दबाकर रखें (Hold to Speak)
+                </div>
+
+                <!-- Text Input Alternative -->
+                <div class="text-input-container">
+                    <input type="text" id="query-text-input" placeholder="अपना सवाल लिखें..." aria-label="Type your question">
+                    <button id="send-query-btn" class="send-btn">
+                        <span id="send-btn-text">पूछें</span> <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-grid">
+                <!-- Transcription Area -->
+                <div class="result-card card text-card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-ear-listen text-green"></i>
+                        <h3 id="transcript-header">आपने कहा (What you said)</h3>
+                    </div>
+                    <div class="card-body">
+                        <textarea id="transcript-display" placeholder="आपका बोला हुआ वाक्य यहाँ दिखाई देगा..." readonly></textarea>
+                    </div>
+                </div>
+
+                <!-- Agent Response Area -->
+                <div class="result-card card text-card highlight-card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-robot text-gold"></i>
+                        <h3 id="response-header">कृषि मित्र की सलाह (AI Advice)</h3>
+                    </div>
+                    <div class="card-body">
+                        <div id="response-display" class="response-content">
+                            यहाँ आपके प्रश्नों का सटीक उत्तर मिलेगा। फसल रोग निदान या कृषि योजनाओं की जानकारी के लिए माइक्रोफोन बटन दबाकर प्रश्न पूछें।
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button id="speak-again-btn" class="action-btn" title="दोबारा सुनें" disabled>
+                            <i class="fa-solid fa-volume-high"></i> <span id="speak-btn-text">सुनें</span>
+                        </button>
+                        <button id="stop-speak-btn" class="action-btn secondary" title="रोकें" disabled>
+                            <i class="fa-solid fa-volume-xmark"></i> <span id="stop-btn-text">रोकें</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Guide and Quick Examples -->
+            <section class="guide-section card">
+                <div class="card-header">
+                    <i class="fa-solid fa-circle-question text-green"></i>
+                    <h3 id="guide-header">आप इस तरह के सवाल पूछ सकते हैं</h3>
+                </div>
+                <div class="guide-grid" id="guide-grid-container">
+                    <!-- Hindi prompts by default; will be updated dynamically via JS in English mode -->
+                    <div class="guide-item" onclick="populateExample('गेहूं में पीला रस्ट का इलाज क्या है?')">
+                        <span class="guide-tag crop" id="tag-disease-1">फसल रोग</span>
+                        <p class="guide-query" id="query-1">"गेहूं में पीला रस्ट का इलाज क्या है?"</p>
+                    </div>
+                    <div class="guide-item" onclick="populateExample('धान की नर्सरी में खरपतवार कैसे रोकें?')">
+                        <span class="guide-tag crop" id="tag-weed-2">खरपतवार</span>
+                        <p class="guide-query" id="query-2">"धान की नर्सरी में खरपतवार कैसे रोकें?"</p>
+                    </div>
+                    <div class="guide-item" onclick="populateExample('पीएम किसान योजना की पात्रता और लाभ क्या हैं?')">
+                        <span class="guide-tag scheme" id="tag-scheme-3">सरकारी योजना</span>
+                        <p class="guide-query" id="query-3">"पीएम किसान योजना की क्या पात्रता और लाभ हैं?"</p>
+                    </div>
+                    <div class="guide-item" onclick="populateExample('मुझे ट्रैक्टर खरीदने के लिए क्या सरकारी सब्सिडी मिलेगी?')">
+                        <span class="guide-tag scheme" id="tag-scheme-4">मशीनरी लोन</span>
+                        <p class="guide-query" id="query-4">"मुझे ट्रैक्टर खरीदने के लिए क्या सब्सिडी मिलेगी?"</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- System Message / Fallback Alert -->
+        <div id="toast-container" class="toast-container"></div>
+
+        <footer class="app-footer">
+            <p id="footer-text">© 2026 किसानसाथी • भारतीय किसानों के लिए एक डिजिटल साथी</p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

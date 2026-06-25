@@ -1,0 +1,134 @@
+[
+  {
+    "id": "pm_kisan",
+    "name_hi": "PM-KISAN (प्रधानमंत्री किसान सम्मान निधि योजना)",
+    "name_en": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "eligibility_hi": "सभी छोटे और सीमांत किसान जिनके पास अपने नाम पर खेती योग्य भूमि है, इस योजना के पात्र हैं।",
+    "eligibility_en": "All small and marginal landholding farmer families who own cultivable land are eligible.",
+    "benefits_hi": "किसानों को प्रति वर्ष ₹6,000 की वित्तीय सहायता दी जाती है। यह राशि ₹2,000 की तीन किस्तों में सीधे बैंक खाते में भेजी जाती है।",
+    "benefits_en": "Financial support of ₹6,000 per year, paid in three equal installments of ₹2,000 directly into the bank accounts of farmers.",
+    "keywords_hi": ["पैसा", "सहायता", "किस्त", "खाता", "सम्मान निधि", "₹6000", "रुपए", "वित्तीय मदद", "सालाना"],
+    "keywords_en": ["money", "help", "installment", "account", "fund", "6000", "rupees", "financial aid", "yearly"]
+  },
+  {
+    "id": "pmfby",
+    "name_hi": "PMFBY (प्रधानमंत्री फसल बीमा योजना)",
+    "name_en": "PMFBY (Pradhan Mantri Fasal Bima Yojana)",
+    "eligibility_hi": "सभी किसान जो अधिसूचित क्षेत्रों में अधिसूचित फसलें उगा रहे हैं, वे फसल नुकसान के खिलाफ बीमा ले सकते हैं।",
+    "eligibility_en": "All farmers growing notified crops in notified areas are eligible to purchase crop insurance.",
+    "benefits_hi": "सूखा, बाढ़, कीट और बीमारियों जैसी प्राकृतिक आपदाओं से फसल खराब होने पर वित्तीय सुरक्षा। खरीफ फसल के लिए केवल 2% प्रीमियम, रबी के लिए 1.5% और बागवानी फसलों के लिए 5% प्रीमियम देना होता है।",
+    "benefits_en": "Financial security against crop loss due to natural calamities like drought, flood, pests, and diseases. Farmers pay a low premium of 2% for Kharif, 1.5% for Rabi, and 5% for commercial/horticultural crops.",
+    "keywords_hi": ["बीमा", "फसल नुकसान", "नुकसान", "मुआवजा", "आपदा", "बाढ़", "सूखा", "कीड़ा", "खराब", "बर्बाद"],
+    "keywords_en": ["insurance", "crop loss", "damage", "compensation", "disaster", "flood", "drought", "pest", "ruined", "destroyed"]
+  },
+  {
+    "id": "kcc",
+    "name_hi": "Kisan Credit Card (किसान क्रेडिट कार्ड - KCC)",
+    "name_en": "Kisan Credit Card (KCC)",
+    "eligibility_hi": "सभी किसान, काश्तकार, पट्टेदार किसान और स्वयं सहायता समूह (SHG) ऋण के पात्र हैं।",
+    "eligibility_en": "All farmers, tenant farmers, sharecroppers, and Self-Help Groups (SHGs) are eligible for credit.",
+    "benefits_hi": "फसल उगाने और कृषि उपकरणों के लिए बहुत कम ब्याज दर (प्रभावी रूप से 4% तक) पर ₹3 लाख तक का आसान ऋण (लोन)। बिना किसी सुरक्षा (Security) के ₹1.6 लाख तक का ऋण मिलता है।",
+    "benefits_en": "Easy access to agricultural credit up to ₹3 lakhs at low interest rates (effectively 4% with timely repayment). Collateral-free loan available up to ₹1.6 lakhs.",
+    "keywords_hi": ["लोन", "कर्ज", "उधार", "क्रेडिट कार्ड", "ब्याज", "बैंक", "पैसा चाहिए", "ऋण"],
+    "keywords_en": ["loan", "debt", "borrow", "credit card", "interest", "bank", "money", "credit"]
+  },
+  {
+    "id": "soil_health_card",
+    "name_hi": "Soil Health Card Scheme (मृदा स्वास्थ्य कार्ड योजना)",
+    "name_en": "Soil Health Card Scheme",
+    "eligibility_hi": "भारत के सभी किसानों के लिए उपलब्ध है।",
+    "eligibility_en": "Available to all farmers across India.",
+    "benefits_hi": "खेत की मिट्टी की जांच की जाती है और 12 मापदंडों पर रिपोर्ट दी जाती है। इससे किसानों को पता चलता है कि उनके खेत में किस पोषक तत्व की कमी है और कितनी मात्रा में यूरिया या अन्य खाद डालनी चाहिए।",
+    "benefits_en": "Tests farm soil and provides reports on 12 key parameters. Helps farmers understand nutrient deficiencies and determine the exact amount of fertilizers like urea needed.",
+    "keywords_hi": ["मिट्टी", "जांच", "कार्ड", "मृदा", "खाद", "यूरिया", "पोषक तत्व", "उर्वरक", "खेत की मिट्टी"],
+    "keywords_en": ["soil", "test", "card", "health", "fertilizer", "urea", "nutrients", "farm soil"]
+  },
+  {
+    "id": "pmksy",
+    "name_hi": "PMKSY (प्रधानमंत्री कृषि सिंचाई योजना - हर खेत को पानी)",
+    "name_en": "PMKSY (Pradhan Mantri Krishi Sinchayee Yojana)",
+    "eligibility_hi": "सभी किसान जिनके पास कृषि योग्य भूमि और पानी का स्रोत उपलब्ध है।",
+    "eligibility_en": "All farmers who own cultivable land and have access to a water source.",
+    "benefits_hi": "खेतों में ड्रिप (टपक) और स्प्रिंकलर (फव्वारा) सिंचाई प्रणाली लगाने के लिए सरकार द्वारा 55% से 80% तक की भारी सब्सिडी दी जाती है, जिससे पानी और बिजली की बचत होती है।",
+    "benefits_en": "Provides heavy government subsidies ranging from 55% to 80% to install drip and sprinkler irrigation systems, saving water and electricity.",
+    "keywords_hi": ["सिंचाई", "पानी", "ड्रिप", "टपक", "फव्वारा", "सब्सिडी", "बोरवेल", "कुआं", "पाइप"],
+    "keywords_en": ["irrigation", "water", "drip", "sprinkler", "subsidy", "borewell", "well", "pipe"]
+  },
+  {
+    "id": "pm_kmy",
+    "name_hi": "PM-KMY (प्रधानमंत्री किसान मान-धन योजना)",
+    "name_en": "PM-KMY (Pradhan Mantri Kisan Maan-Dhan Yojana)",
+    "eligibility_hi": "18 से 40 वर्ष की आयु के छोटे और सीमांत किसान जिनके पास 2 हेक्टेयर तक कृषि योग्य भूमि है।",
+    "eligibility_en": "Small and marginal farmers aged 18 to 40 years who own up to 2 hectares of cultivable land.",
+    "benefits_hi": "यह एक पेंशन योजना है। 60 वर्ष की आयु पूरी होने के बाद किसान को प्रति माह ₹3,000 की सुनिश्चित पेंशन मिलती है। इसके लिए किसान को उम्र के अनुसार ₹55 से ₹200 का मासिक योगदान देना होता है।",
+    "benefits_en": "A pension scheme providing a assured monthly pension of ₹3,000 after attaining the age of 60. Requires a monthly contribution of ₹55 to ₹200 depending on age.",
+    "keywords_hi": ["पेंशन", "बुढ़ापा", "उम्र", "मासिक", "60 वर्ष", "पैसे", "महीना"],
+    "keywords_en": ["pension", "old age", "age", "monthly", "60 years", "money", "month"]
+  },
+  {
+    "id": "pkvy",
+    "name_hi": "Paramparagat Krishi Vikas Yojana (परंपरागत कृषि विकास योजना)",
+    "name_en": "Paramparagat Krishi Vikas Yojana (PKVY)",
+    "eligibility_hi": "जैविक खेती करने के इच्छुक किसानों के समूह (क्लस्टर)।",
+    "eligibility_en": "Groups of farmers (clusters) interested in adopting organic farming practices.",
+    "benefits_hi": "जैविक खेती (Organic Farming) को बढ़ावा देने के लिए प्रति हेक्टेयर ₹50,000 की वित्तीय सहायता दी जाती है, जिसमें से 62% जैविक इनपुट (बीज, खाद) खरीदने के लिए सीधे किसान को मिलता है।",
+    "benefits_en": "Provides financial assistance of ₹50,000 per hectare to promote organic farming, with 62% given directly to farmers for buying organic inputs like seeds and bio-fertilizers.",
+    "keywords_hi": ["जैविक", "खाद", "ऑर्गेनिक", "गोबर", "बिना रसायन", "प्राकृतिक खेती", "देसी"],
+    "keywords_en": ["organic", "manure", "fertilizer", "natural farming", "chemical free", "bio fertilizer"]
+  },
+  {
+    "id": "smam",
+    "name_hi": "SMAM (कृषि यंत्रीकरण पर उप-मिशन)",
+    "name_en": "SMAM (Sub-Mission on Agricultural Mechanization)",
+    "eligibility_hi": "सभी श्रेणी के किसान जो नए कृषि उपकरण खरीदना चाहते हैं। महिला और अनुसूचित जाति/जनजाति के किसानों को प्राथमिकता मिलती है।",
+    "eligibility_en": "All categories of farmers looking to purchase new agricultural tools. Priority is given to women and SC/ST farmers.",
+    "benefits_hi": "ट्रैक्टर, रोटावेटर, कल्टीवेटर, बुवाई मशीन और अन्य कृषि उपकरण खरीदने पर 40% से 80% तक की सरकारी सब्सिडी दी जाती है।",
+    "benefits_en": "Offers government subsidies from 40% to 80% on purchasing tractors, rotavators, cultivators, sowing machines, and other farm equipment.",
+    "keywords_hi": ["ट्रैक्टर", "मशीन", "औजार", "उपकरण", "रोटावेटर", "सब्सिडी", "खरीदना", "कृषि यंत्र"],
+    "keywords_en": ["tractor", "machine", "tools", "equipment", "rotavator", "subsidy", "purchase", "farm machinery"]
+  },
+  {
+    "id": "enam",
+    "name_hi": "e-NAM (राष्ट्रीय कृषि बाजार)",
+    "name_en": "e-NAM (National Agriculture Market)",
+    "eligibility_hi": "सभी किसान और व्यापारी जो अपनी फसल को ऑनलाइन मंडी में बेचना चाहते हैं।",
+    "eligibility_en": "All farmers and traders looking to sell their agricultural produce in mandis online.",
+    "benefits_hi": "एक ऑनलाइन ट्रेडिंग पोर्टल जो किसानों को उनके नजदीकी मंडियों और पूरे देश के खरीदारों से जोड़ता है ताकि वे अपनी उपज का सही और प्रतिस्पर्धी मूल्य सीधे पा सकें। बिचौलियों से मुक्ति मिलती है।",
+    "benefits_en": "An online trading portal connecting farmers to nearby mandis and buyers nationwide to secure fair and competitive prices, bypassing middlemen.",
+    "keywords_hi": ["बेचना", "मंडी", "भाव", "कीमत", "ऑनलाइन", "फसल बेचना", "बाजार", "आढ़ती", "व्यापारी"],
+    "keywords_en": ["sell", "mandi", "rate", "price", "online", "sell crop", "market", "broker", "trader"]
+  },
+  {
+    "id": "pm_msy",
+    "name_hi": "PM-MSY (प्रधानमंत्री मत्स्य संपदा योजना)",
+    "name_en": "PM-MSY (Pradhan Mantri Matsya Sampada Yojana)",
+    "eligibility_hi": "मछली पालक, पारंपरिक मछुआरे और मत्स्य क्षेत्र से जुड़े किसान।",
+    "eligibility_en": "Fish farmers, traditional fishermen, and farmers associated with fisheries activities.",
+    "benefits_hi": "मछली पालन शुरू करने, तालाब बनाने, मछली के बीज खरीदने, नाव, और कोल्ड स्टोरेज आदि के लिए 40% (सामान्य वर्ग) से 60% (महिला/SC/ST) तक की वित्तीय सहायता और सब्सिडी।",
+    "benefits_en": "Subsidies ranging from 40% (General) to 60% (Women/SC/ST) to start fish farming, dig ponds, purchase fish seeds, boats, and build cold storage units.",
+    "keywords_hi": ["मछली", "तालाब", "मछली पालन", "नाव", "मछुआरा", "झींगा", "फिशरी"],
+    "keywords_en": ["fish", "pond", "fish farming", "boat", "fisherman", "fishery", "pisciculture"]
+  },
+  {
+    "id": "nlm",
+    "name_hi": "National Livestock Mission (राष्ट्रीय पशुधन मिशन - NLM)",
+    "name_en": "National Livestock Mission (NLM)",
+    "eligibility_hi": "व्यक्तिगत किसान, स्वयं सहायता समूह, और पशुपालक।",
+    "eligibility_en": "Individual farmers, Self-Help Groups (SHGs), and livestock rearers.",
+    "benefits_hi": "बकरी पालन, भेड़ पालन, मुर्गी पालन (Poultry), और सुअर पालन इकाई शुरू करने के लिए पूंजीगत लागत पर 50% तक की सब्सिडी (अधिकतम ₹50 लाख तक)।",
+    "benefits_en": "Provides up to 50% capital subsidy (up to ₹50 lakhs) to start goat farming, sheep farming, poultry farming, or piggery units.",
+    "keywords_hi": ["बकरी", "मुर्गी", "पशुपालन", "गाय", "भैंस", "भेड़", "डेयरी", "चारा"],
+    "keywords_en": ["goat", "poultry", "chicken", "livestock", "cow", "buffalo", "sheep", "dairy", "fodder"]
+  },
+  {
+    "id": "aif",
+    "name_hi": "Agriculture Infrastructure Fund (कृषि अवसंरचना कोष - AIF)",
+    "name_en": "Agriculture Infrastructure Fund (AIF)",
+    "eligibility_hi": "किसान, कृषि उद्यमी, स्टार्ट-अप, प्राथमिक कृषि ऋण समितियां (PACS)।",
+    "eligibility_en": "Farmers, agri-entrepreneurs, startups, and Primary Agricultural Credit Societies (PACS).",
+    "benefits_hi": "फसल कटाई के बाद के प्रबंधन (जैसे कोल्ड स्टोरेज, गोदाम, छंटाई और पैकेजिंग इकाइयां) के लिए ऋण पर 3% प्रति वर्ष की ब्याज छूट (Interest Subvention) और ₹2 करोड़ तक की ऋण गारंटी।",
+    "benefits_en": "Provides a 3% per annum interest subvention and credit guarantee up to ₹2 crores on loans for building post-harvest infrastructure like cold storages, warehouses, and packaging units.",
+    "keywords_hi": ["कोल्ड स्टोरेज", "गोदाम", "स्टोरेज", "भंडारण", "ब्याज छूट", "बिजनेस", "लोन"],
+    "keywords_en": ["cold storage", "warehouse", "storage", "harvest storage", "interest discount", "business", "loan"]
+  }
+]
