@@ -260,6 +260,20 @@ Respond politely, warmly, and concisely in Hindi (under 50 words). Introduce you
 // API Endpoint
 // --------------------------------------------------------
 
+app.get('/health', (req, res) => {
+  const apiKey = process.env.GEMINI_API_KEY;
+  const forceOffline = process.env.FORCE_OFFLINE_MODE === 'true';
+  const nodeEnv = process.env.NODE_ENV || 'development';
+
+  const hasApiKey = !!apiKey && apiKey !== 'YOUR_GEMINI_API_KEY_HERE';
+
+  res.json({
+    apiKeyPresent: hasApiKey,
+    nodeEnv: nodeEnv,
+    forceOfflineMode: forceOffline
+  });
+});
+
 app.post('/api/chat', async (req, res) => {
   const { message, lang = 'hi' } = req.body;
   const apiKey = process.env.GEMINI_API_KEY;
